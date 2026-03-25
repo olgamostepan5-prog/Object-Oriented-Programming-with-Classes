@@ -18,7 +18,7 @@ class Product {
         return `Product: ${this.name}, Price: $${this.price.toFixed(2)}, Quantity: ${this.quantity}`;
     }
 
-    // Static method to apply discount
+    // Static method apply discount
     static applyDiscount(products, discount) {
         products.forEach(product => {
             product.price = product.price * (1 - discount);
