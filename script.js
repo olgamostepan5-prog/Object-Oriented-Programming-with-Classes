@@ -1,5 +1,5 @@
 // =======================
-// Project Setup
+// Product Class (Base)
 // =======================
 class Product {
     constructor(name, price, quantity) {
@@ -8,7 +8,7 @@ class Product {
         this.quantity = quantity;
     }
 
-    // Value of stock
+    // Total value of stock
     getTotalValue() {
         return this.price * this.quantity;
     }
@@ -25,7 +25,6 @@ class Product {
         });
     }
 }
-
 
 // =======================
 // PerishableProduct Class
