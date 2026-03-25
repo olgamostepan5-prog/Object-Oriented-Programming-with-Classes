@@ -90,7 +90,7 @@ store.addProduct(p3);
 store.addProduct(p4);
 store.addProduct(p5);
 
-// BEFORE discount
+// Before discount
 console.log("=== BEFORE DISCOUNT ===");
 store.inventory.forEach(p => console.log(p.toString()));
 console.log("Total Inventory Value: $" + store.getInventoryValue().toFixed(2));
