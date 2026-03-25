@@ -98,7 +98,7 @@ console.log("Total Inventory Value: $" + store.getInventoryValue().toFixed(2));
 // Apply 15% discount
 Product.applyDiscount(store.inventory, 0.15);
 
-// AFTER discount
+// After discount
 console.log("\n=== AFTER 15% DISCOUNT ===");
 store.inventory.forEach(p => console.log(p.toString()));
 console.log("Total Inventory Value: $" + store.getInventoryValue().toFixed(2));
