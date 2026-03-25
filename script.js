@@ -8,7 +8,7 @@ class Product {
         this.quantity = quantity;
     }
 
-    // Total value of stock
+    // Total value of stocks
     getTotalValue() {
         return this.price * this.quantity;
     }
