@@ -69,7 +69,7 @@ class Store {
 
 
 // TESTING SYSTEM
-// =======================
+
 
 // Create products
 const p1 = new Product("Laptop", 1000, 5);
