@@ -43,7 +43,7 @@ class PerishableProduct extends Product {
 
 
 // Store Class
-// =======================
+
 class Store {
     constructor() {
         this.inventory = [];
