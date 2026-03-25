@@ -28,7 +28,7 @@ class Product {
 
 
 // PerishableProduct Class
-// =======================
+
 class PerishableProduct extends Product {
     constructor(name, price, quantity, expirationDate) {
         super(name, price, quantity);
