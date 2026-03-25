@@ -49,7 +49,7 @@ class Store {
         this.inventory = [];
     }
 
-    // Add product
+    // Add products
     addProduct(product) {
         this.inventory.push(product);
     }
