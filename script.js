@@ -41,7 +41,7 @@ class PerishableProduct extends Product {
     }
 }
 
-// =======================
+
 // Store Class
 // =======================
 class Store {
