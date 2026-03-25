@@ -1,6 +1,6 @@
 
 // Product Class (Base)
-// =======================
+
 class Product {
     constructor(name, price, quantity) {
         this.name = name;
