@@ -68,7 +68,7 @@ class Store {
 }
 
 
-// TESTING SYSTEM
+// Testing system
 
 
 // Create products
