@@ -13,7 +13,7 @@ class Product {
         return this.price * this.quantity;
     }
 
-    // String representation
+    // String representations
     toString() {
         return `Product: ${this.name}, Price: $${this.price.toFixed(2)}, Quantity: ${this.quantity}`;
     }
